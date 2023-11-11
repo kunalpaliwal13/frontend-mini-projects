@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family:  Arial;
+    
+}
+.navbar {
+    height: 65px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+/*------------------------------NAVBAR-------------------------*/
+
+
+.nav-logo {
+    height: 38px;
+    width: 110px;
+    align-items: center;
+    margin-left: 20px;
+    
+    
+    
+}
+.logo{
+    
+    background-image: url(download.png);
+    height: 120px;
+    width: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    
+    
+}
+.border{
+    border:1.5px solid transparent;
+    padding: 8px 8px 8px 8px;
+}
+.border:hover{
+    border:1.5px solid white;
+    padding: 8px 8px 8px 8px;
+}
+/*----LOGO----*/
+.loc{
+    
+    height: 38px;
+    margin-left: 20px;
+}
+.deliverto{
+    font-size: 0.8rem;
+    color: #CCCCC1;
+    margin-left: 17px;
+    
+}
+.address{
+    display: flex;
+    font-size: 1rem;
+}
+.addressplace{
+    margin-left: 8px;
+}
+/*----Deliver to--*/
+.nav-searchbar {
+    margin-left: 20px;
+    display: flex;
+    width: 620px;
+    height: 37px;
+    border-radius: 4px;
+    border: 3px #000 solid;
+    justify-content: space-evenly;
+    position: relative; /* Add position relative for positioning the border */
+}
+
+.nav-searchbar:hover {
+    border: orange solid 3px;
+    border-radius: 7px;
+}
+
+.selection {
+    background-color: #e6e6e6;
+    height: 37px;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #666666;
+    text-align: center;
+    border: none;
+}
+*:focus {
+    outline: none;
+}
+
+.searchbar {
+    background-color: white;
+    padding: 7px 10px 10px 15px;
+    height: 20px;
+    width: 100%;
+    border: none;
+}
+
+.search-btn {
+    height: 27.2px;
+    width: 30px;
+    background-color: #febd69;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #000;
+}
+/*----Searchbar---*/
+.box4 span {
+    /* Add styles for the span element here */
+    font-size: 12px;/* Example color, replace with your desired styles */
+}
+.box-sec-text{
+    font-weight: 600;
+    font-size: 15px;
+}
+.box5 span {
+    /* Add styles for the span element here */
+    font-size: 12px;/* Example color, replace with your desired styles */
+}
+.box span {
+    /* Add styles for the span element here */
+    font-size: 12px;/* Example color, replace with your desired styles */
+}
+.cart-icon{
+    font-size: 28px;
+}
+.cart{
+    font-size: 15px;
+    font-weight: 600;
+}
+/*----box 4 and 5--- */
+
+
+/*----------------------------------------Mini navbar --------------------------------*/
+
+.mini-navbar {
+    background-color: #141717;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.options{
+    display: flex;
+    border: #141717 2px solid;
+}
+.mini-navbar p{
+    margin-left: 7px ;
+}
+.box1{
+    margin-left: 5px;
+    display: flex;
+}
+.options{
+    padding-inline: 13px;
+}
+.mini-navbar-width{
+    
+    width: 60%;
+    display: flex;
+    
+}
+
+/*--------------------------------------------------HERO SECTION--------------------------------------------*/
+.hero-section {
+    display: flex;
+    background-image: url("hero.jpg");
+    height: 400px;
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: end;
+    
+}
+
+.hero-section-mid-bar {
+    background-color: white;
+    width: 90%;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    
+}
+.hero-section a{
+    color: #007185;
+}
+/*------------------hero section--------------*/
+
+.shop-section{
+    background-color: #d4dddd;
+    display:flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1000px;
+}
+
+
+.box-card{
+    padding-top: 30px;
+    display: flow-root;
+    flex-direction: column;
+    height: 400px;
+    width: 22%;
+    background-color: rgb(255, 255, 255);
+    justify-content:center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.box-card h2{
+    margin-left: 23px;
+    margin-bottom: 10px;
+}
+.box-card p{
+    margin-left: 23px;
+    font-size :15px;
+    color: #007185;
+    
+}
+.box-img{
+    margin-left: 23px;
+    margin-right: 23px;
+    height: 80%;
+    width: 85%;
+    margin-bottom: 10px;
+}
+/*------------------shop cards--------------*/
+
+
+.footer-pannel{
+    background-color: #18202b;
+    height:50px;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.footerlists{
+    background-color: #131a22;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:start;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.content h5{
+    
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.content p{
+    color: #a09191;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.logopannel{
+    height: 150px;
+    width: 100%;
+    background-color: #131a22 ;
+    border-top: rgb(108, 102, 102) 0.00001px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 200px;
+    padding-left: 450px;
+}
+.logo2{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.selectfooter{
+    height: 28px;
+    width: 110px;
+    align-items: center;
+    text-align: center;
+    background-color:#131a22 ;
+    color: white;
+    border: 1px white solid;
+    border-radius: 3px;
+    margin-bottom: 1px;
+    font-size: 12px;
+}
+.logopannel p{
+    color: white;
+    height: 22px;
+    width: 110px;
+    align-items: center;
+    text-align: center;
+    background-color:#131a22 ;
+    padding-top: 5px;
+    font-size: 12px;
+    margin-right: 900px;
+    margin-left: 20px;
+    border: 1px white solid;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
