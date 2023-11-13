@@ -3,6 +3,7 @@
     border: border-box;
     font-family:  Arial;
     
+    
 }
 .navbar {
     height: 65px;
@@ -253,6 +254,7 @@
     display: flex;
     align-items: center;
     font-size: 13px;
+    width: 100%;;
 }
 
 .footerlists{
@@ -279,15 +281,14 @@
     margin-bottom: 10px;
 }
 .logopannel{
-    height: 150px;
+    height: 100px;
     width: 100%;
     background-color: #131a22 ;
     border-top: rgb(108, 102, 102) 0.00001px solid ;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 200px;
-    padding-left: 450px;
+    
 }
 .logo2{
     background-image: url("amazon_logo.png");
@@ -295,6 +296,7 @@
     width: 100px;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-left: 550px;
 }
 .selectfooter{
     height: 28px;
@@ -307,6 +309,7 @@
     border-radius: 3px;
     margin-bottom: 1px;
     font-size: 12px;
+    margin-left: 100px;;
 }
 .logopannel p{
     color: white;
@@ -317,12 +320,49 @@
     background-color:#131a22 ;
     padding-top: 5px;
     font-size: 12px;
-    margin-right: 900px;
+    margin-right: 500px;
     margin-left: 20px;
     border: 1px white solid;
     border-radius: 3px;
 }
+.selectfooter p{
+    color: white;
+    height: 20px;
+    width: 20px;
+}
 
+.footerlast{
+    padding-top: 40px;
+    background-color: #090d12;
+    height: 190px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: block;
+    
+    
+    
+}
+.footertext{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footertext p{
+    color: #999999;
+    font-size: 12px;
+}
+.footertext h6{
+    font-size: 12px;
+    color: #DDDDDD;
+    font-weight: 80%;
+}
+.row{
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 50px;
+}
 
 
 
