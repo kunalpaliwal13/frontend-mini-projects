@@ -74,7 +74,7 @@
     border-radius: 4px;
     border: 3px #000 solid;
     justify-content: space-evenly;
-    position: relative; /* Add position relative for positioning the border */
+    position: relative; 
 }
 
 .nav-searchbar:hover {
@@ -116,20 +116,20 @@
 }
 /*----Searchbar---*/
 .box4 span {
-    /* Add styles for the span element here */
-    font-size: 12px;/* Example color, replace with your desired styles */
+    
+    font-size: 12px;
 }
 .box-sec-text{
     font-weight: 600;
     font-size: 15px;
 }
 .box5 span {
-    /* Add styles for the span element here */
-    font-size: 12px;/* Example color, replace with your desired styles */
+   
+    font-size: 12px;
 }
 .box span {
-    /* Add styles for the span element here */
-    font-size: 12px;/* Example color, replace with your desired styles */
+    
+    font-size: 12px;
 }
 .cart-icon{
     font-size: 28px;
@@ -206,6 +206,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 1000px;
+    padding-right: 20px;
 }
 
 
@@ -223,17 +224,25 @@
     background-repeat: no-repeat;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
+    color: inherit;
 
 }
+
 .box-card h2{
     margin-left: 23px;
     margin-bottom: 10px;
 }
-.box-card p{
+.box-card {
     margin-left: 23px;
     font-size :15px;
     color: #007185;
     
+}
+.nested-a{
+    margin-left: 23px;
+    margin-bottom: 10px;
+
 }
 .box-img{
     margin-left: 23px;
@@ -282,12 +291,14 @@
 }
 .logopannel{
     height: 100px;
-    width: 100%;
+    width: 1119px;
     background-color: #131a22 ;
     border-top: rgb(108, 102, 102) 0.00001px solid ;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
     
 }
 .logo2{
@@ -296,7 +307,7 @@
     width: 100px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 550px;
+    
 }
 .selectfooter{
     height: 28px;
@@ -309,7 +320,8 @@
     border-radius: 3px;
     margin-bottom: 1px;
     font-size: 12px;
-    margin-left: 100px;;
+    margin-left: 100px;
+    margin-right: 20px;
 }
 .logopannel p{
     color: white;
@@ -320,10 +332,9 @@
     background-color:#131a22 ;
     padding-top: 5px;
     font-size: 12px;
-    margin-right: 500px;
-    margin-left: 20px;
     border: 1px white solid;
     border-radius: 3px;
+    margin-right: 20px;
 }
 .selectfooter p{
     color: white;
@@ -332,64 +343,38 @@
 }
 
 .footerlast{
-    padding-top: 40px;
+    
     background-color: #090d12;
     height: 190px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-    display: block;
-    
-    
-    
-}
-.footertext{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.footertext p{
-    color: #999999;
-    font-size: 12px;
-}
-.footertext h6{
-    font-size: 12px;
-    color: #DDDDDD;
-    font-weight: 80%;
-}
-.row{
-    margin-left: 400px;
-    display: flex;
+    width: 100%px;
     align-items: center;
     justify-content: left;
-    margin-bottom: 50px;
+    display: flex;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+    
+    
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.row{
+    display: block;
+}
+.footertext{
+    color: white;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-right: 100x;
+}
+.footerlast h6{
+    font-size: 12px;
+    
+}
+.footertext h6{
+    margin-top: 20px;
+}
+.footerlast p{
+    color: #999;
+}
 
 
