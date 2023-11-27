@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+    color: white;
 }
 #nav{
     height: 110px;
@@ -22,13 +23,22 @@
 #nav h4{
     font-weight: 500;
     color: white;
-    
+    transition: color 0.3s ease; /* Adding transition for a smooth effect */
 }
+
+#nav h4:hover {
+    
+    font-weight: 500;
+    text-shadow: #94C11E;
+}
+    
+
 video{
     height: 100%;
     width: 100%;
     object-fit: cover;
     position: fixed;
+    z-index: -2;
 }
 #main{
     width: 100%;
@@ -41,5 +51,41 @@ video{
     height: 100vh;
     width: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+}
+#page1 p{
+    justify-content: center;
+}
+#page1 h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin: 0 0;
+    position: relative;
+    z-index: 1;
+}
+#page1 h1::before{
+    display: flex;
+    content: "EAT.DRINK.REPEAT";
+    position:absolute;
+    top: -3.5px;
+    left: -4px;
+    color: black;
+    z-index: -1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #94C11E;
+}
+#page1 h2{
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#page1 p{
+    width: 40%;
+    font-size: 14px;
+    font-weight: 600;
 }
