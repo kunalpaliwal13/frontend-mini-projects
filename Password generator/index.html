@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel ="stylesheet" href = "styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+        <h1>Genpass</h1>
+        </div>
+        <div class="navmenu">
+        <P>Home</P>
+        <p><a href = "https://github.com/kunalpaliwal13">Github</a></p>
+        <p>Know more</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Generate a<br><span>random Password</span></h1>
+        <div class="inputbox">
+            <input type = "text" id = "password" placeholder="Password ">
+            <button onclick="copy()" id ="copy"><img src = "images/copy.png" height= 40px alt=""></button>
+        </div>  
+       
+        <button onclick=" createpass()" id = "generate"><i class="fa fa-solid fa-key" style="color: #ffffff;"></i>  Generate password</button>
+    </div>
+        
+    
+
+    
+    
+</body>
+<script>
+    const password = document.getElementById("password")
+    
+    const uppercase= "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    const lowercase= "abcdefghijklmnopqrstuvwxyz"
+    const number = "1234567890"
+    const sp_char = "!@#$%^&*()_+=-"
+    const allchars= uppercase+lowercase+number+sp_char
+
+    function createpass() {
+        let passstr=""
+        while(passstr.length<12){
+        passstr += allchars[Math.floor(Math.random() * allchars.length)]
+        }
+
+        password.value = passstr;
+    }
+
+    function copy(){
+        navigator.clipboard.writeText(password.value)
+    }
+
+
+
+</script>
+</html>
