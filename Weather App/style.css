@@ -1,0 +1,11 @@
+.card{
+    width: 70vh;
+}
+.city-input{
+    width: 50vh;
+    border-radius: 5px;
+    border: 2px solid rgb(140, 136, 136);
+    height: 50px;
+    top: 10px;
+    font-size:20px ;
+}
