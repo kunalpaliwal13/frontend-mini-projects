@@ -12,34 +12,28 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class = 'body'>
     <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <a class="navbar-brand" href="#">Weather App</a>
+      <label class="switch">
+        <input type="checkbox" onclick="darkMode()">
+        <span class="slider"></span>
+    </label>
+      
 
       </nav>
       <div class="container my-5">
       <div class="jumbotron my-5">
-        <h1 class="display-4">Welcome to this Weather App!</h1>
-        <p class="lead">This is a simple weather app working with the help of an api.</p>
+        <h1 class="display-4">Welcome to this Weather App! <span id= "logo">☀️</span></h1>
+        <p class="lead">This is a simple weather app working with the help of a javascript api.</p>
         <hr class="my-4"> 
 
-        <h4>Temprature : <span id="temp"></span>`           </h4>
-        <h4>Humidity : <span id="humidity"></span>          </h4>
-        <h4>Wind Speed & Degree : <span id="wind"></span>   </h4>
-        <h4>Sunset And Sunrise Time : <span id="sun"></span></h4>
-        <input type = 'text' class="city-input" id = "search">
-        <a class="btn btn-primary btn-lg" onclick="findCity()" href="#" role="button">Learn more</a>
+        <h4>Temprature : <span id="temp" class="res"></span><span class="res"> °C   </span>        </h4>
+        <h4>Humidity : <span id="humidity" class="res"></span>          </h4>
+        <h4>Wind Speed & Degree : <span id="wind" class="res"></span>   </h4>
+        <h4>Sunset And Sunrise Time : <span id="sun" class="res"></span></h4>
+        <input type = 'text' class="input" id = "search" placeholder="Enter City">
+        <button class="cssbuttons-io" onclick="findCity()" href="#" role="button">Find Weather</button>
     </div>
         
       </div>    

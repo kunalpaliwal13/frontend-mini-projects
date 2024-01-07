@@ -44,3 +44,16 @@ function findCity() {
 
     apiCall(search)
 }
+let dark =0;
+
+function darkMode(){
+    logo = document.getElementById('logo');
+    if(dark%2==0){logo.innerHTML="🌙";}
+    else{logo.innerHTML = "☀️"}
+    dark++;
+}
+
+
+
+
+
